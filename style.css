@@ -1,0 +1,68 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 510px;
+  width: 920px;
+  background: url("/images/bg-pattern-desktop.svg") white 1260% 65% no-repeat;
+  display: grid;
+  grid-template-columns: 400px auto;
+  border-radius: 30px;
+}
+
+.container__images {
+  position: relative;
+}
+
+.container__accordions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container__accordions__title {
+  margin-bottom: 30px;
+  margin-right: 80px;
+}
+
+.accordion {
+  width: 350px;
+  padding: 16px 0;
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+}
+
+.accordion__question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion__question:hover {
+  color: burlywood;
+}
+
+.image__woman {
+  height: 100%;
+  width: 100%;
+  background: url("/images/illustration-woman-online-desktop.svg") -86px no-repeat;
+}
+
+.image__box {
+  position: absolute;
+  top: 42%;
+  left: -25%;
+}
+
+.hidden {
+  display: none;
+}
+.boldano {
+  font-weight: bold;
+}
